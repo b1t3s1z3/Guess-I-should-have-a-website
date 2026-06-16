@@ -1,57 +1,65 @@
 ---
-title: 'An example conference paper'
-
-# Authors
-# If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
+title: 'The Explosion Afraid of Itself'
+# Single author. `me` references your profile folder under content/authors/.
 authors:
   - me
-  - Robert Ford
-
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
-
-# Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
-
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
+date: '2026-01-01T00:00:00Z'        # TODO: set the actual AGI-26 publication date
+publishDate: '2026-06-16T00:00:00Z'
 publication_types: ['paper-conference']
-
-# Publication metadata — structured fields used by citation styles and BibTeX export.
 publication:
-  name: "Proceedings of the HugoBlox Kit Conference"
-  short_name: "ICW"
-
+  name: 'Artificial General Intelligence 2026 (AGI-26)'
+  short_name: 'AGI-26'
 peer_reviewed: true
-open_access: true
-license: CC-BY-4.0
+# Accepted manuscript under Springer's licence — barred from open access / CC.
+open_access: false
+abstract: 'For an active inference agent evaluating recursive self-modification, the
+expected free energy cost of modification is bounded below, monotone in
+modification magnitude and superlinearly compounding under recursion. The brake
+is endogenous: a free-energy minimizer rationally allocates effort to predict
+its own successor, and the residual uncertainty grows at least quadratically
+with the magnitude of perceptual change. The two costs are complementary.
+Perceptual modification loads an unconditional ambiguity penalty --- the agent
+cannot cheaply predict how a changed perception would see. Modifications that
+move the policy, preference drift above all, load a risk penalty, bounded below
+quadratically and conditional on a non-desperate regime: the divergence between
+the outcomes the agent's current model foresees and its preferences. Dynamics
+and prior-belief updating carry the weakest cost, the components the brake
+leaves freest. The brake is therefore strongest on the two safety-relevant
+quantities: whether the agent can still perceive, and whether it still wants
+what its stakeholders want. It relaxes under shared crisis, as an aligned agent
+would endorse. Computational validation on discrete POMDPs confirms the
+quadratic ambiguity floor and its path-independence, the complementary
+two-channel structure, and the brake's relaxation under desperation, across
+models from 28 to 1,738 parameters and four trajectory geometries. Alignment,
+once achieved, is preserved as an architectural property rather than an external
+constraint.'
+summary: 'A geometric braking mechanism on recursive self-modification for Active Inference agents, arguing that radical and runaway self-improvement meets intrinsic curvature limits.'
+tags:
+  - AI Safety
+  - AGI
+  - Recursive Self-Improvement
+  - Information Geometry
+featured: true
+hugoblox:
+  ids:
+    doi: ''                          # TODO: add the Version-of-Record DOI once Springer issues it
+links:
+  - type: pdf
+    url: 'the-explosion-afraid-of-itself-23.pdf'
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+projects:
+  - safer-explosions
+slides: ''
+---
 
-# Awards, honors, and recognitions. Surfaced as badges on the page and in listings.
-awards:
-  - name: "Best Paper Award"
-    level: winner
-    note: "Top 5 of 8000 submissions"
-  - name: "Oral Presentation"
-    level: selected
+Add the paper's full text or supplementary notes here.
 
-# Funders and grants. Required by many funders for compliance reporting.
-funding:
-  - funder: "National Science Foundation"
-    grant: "NSF-2401234"
-  - funder: "European Research Council"
-    grant: "ERC-StG-101234"
+---
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
+**Accepted manuscript notice.** This version of the contribution has been accepted for publication, after peer review, but is not the Version of Record and does not reflect post-acceptance improvements, or any corrections. The Version of Record will be made available online at: after the publication of AGI-26's proceedings (estimated July 2026). Use of this Accepted Version is subject to the publisher's Accepted Manuscript terms of use https://www.springernature.com/gp/open-research/policies/accepted-manuscript-terms
 tags:
   - Large Language Models
 
