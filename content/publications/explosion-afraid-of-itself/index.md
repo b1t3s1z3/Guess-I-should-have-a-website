@@ -14,7 +14,8 @@ publication:
 peer_reviewed: true
 # Accepted manuscript under Springer's licence — barred from open access / CC.
 open_access: false
-abstract: 'For an active inference agent evaluating recursive self-modification, the
+abstract: >--
+For an active inference agent evaluating recursive self-modification, the
 expected free energy cost of modification is bounded below, monotone in
 modification magnitude and superlinearly compounding under recursion. The brake
 is endogenous: a free-energy minimizer rationally allocates effort to predict
@@ -34,7 +35,7 @@ quadratic ambiguity floor and its path-independence, the complementary
 two-channel structure, and the brake's relaxation under desperation, across
 models from 28 to 1,738 parameters and four trajectory geometries. Alignment,
 once achieved, is preserved as an architectural property rather than an external
-constraint.'
+constraint.
 summary: 'A geometric braking mechanism on recursive self-modification for Active Inference agents, arguing that radical and runaway self-improvement meets intrinsic curvature limits.'
 tags:
   - AI Safety
