@@ -14,7 +14,7 @@ publication:
 peer_reviewed: true
 # Accepted manuscript under Springer's licence — barred from open access / CC.
 open_access: false
-abstract: >--
+abstract: >-
 For an active inference agent evaluating recursive self-modification, the
 expected free energy cost of modification is bounded below, monotone in
 modification magnitude and superlinearly compounding under recursion. The brake
