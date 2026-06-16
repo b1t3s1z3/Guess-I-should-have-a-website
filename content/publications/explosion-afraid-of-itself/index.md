@@ -2,6 +2,7 @@
 
 title: 'The Explosion Afraid of Itself'
 # Single author. `me` references your profile folder under content/authors/.
+
 authors:
   - me
 date: '2026-08-01T00:00:00Z'        # TODO: set the actual AGI-26 publication date
