@@ -12,13 +12,13 @@ sections:
       username: me
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+     #  button:
+     #    text: Download CV
+     #   url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
-        interests: ''
+     #   interests: ''
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
@@ -35,14 +35,10 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'What I'm researching, and how I work'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        I research AGI safety and control theory, but I'm only interested in theoretical advances that will actualy be able to be implementef and adopted in a chaotic, competitive environment. 
     design:
       columns: '1'
   - block: collection
@@ -56,46 +52,46 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
+ #  - block: collection
+ #    content:
+ #     title: Recent Publications
+ #     text: ''
+ #     filters:
+ #       folders:
+ #         - publications
+ #       exclude_featured: false
+ #   design:
+ #     view: citation
+ # - block: collection
+ #   id: talks
+ #   content:
+ #     title: Recent & Upcoming Talks
+ #     filters:
+ #       folders:
+ #         - events
+ #   design:
+ #     view: card
+ # - block: collection
+ #   id: news
+ #   content:
+ #     title: Recent News
+ #     subtitle: ''
+ #     text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: blog
+ #     page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
-      count: 10
+ #     count: 10
       # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
+ #     filters:
+ #       author: ''
+ #       category: ''
+ #       tag: ''
+ #       exclude_featured: false
+ #       exclude_future: false
+ #       exclude_past: false
+ #       publication_type: ''
       # Choose how many pages you would like to offset by
-      offset: 0
+ #     offset: 0
       # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
