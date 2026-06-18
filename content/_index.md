@@ -35,7 +35,7 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: 'What I'm researching, and how I work'
+      title: 'What I research, and how I work'
       subtitle: ''
       text: |-
         I research AGI safety and control theory, but I'm only interested in theoretical advances that will actualy be able to be implementef and adopted in a chaotic, competitive environment. 
