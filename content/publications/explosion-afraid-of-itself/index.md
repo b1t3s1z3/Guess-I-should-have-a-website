@@ -55,7 +55,7 @@ image:
   preview_only: false
 projects:
   - safer-explosions
-slides: ''
+# slides: ''
 ---
 
 **Accepted manuscript notice.** This version of the contribution has been accepted for publication, after peer review, but is not the Version of Record and does not reflect post-acceptance improvements, or any corrections. The Version of Record will be made available online at: after the publication of AGI-26's proceedings (estimated August 2026). Use of this Accepted Version is subject to the publisher's Accepted Manuscript terms of use https://www.springernature.com/gp/open-research/policies/accepted-manuscript-terms
