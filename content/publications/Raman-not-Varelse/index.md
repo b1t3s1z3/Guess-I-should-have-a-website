@@ -1,10 +1,11 @@
 ---
 
-title: 'The Explosion Afraid of Itself'
+title: 'Raman, not Varelse'
 # Single author. `me` references your profile folder under content/authors/.
 
 authors:
   - me
+  - Steve Kommrusch
 date: '2026-08-01T00:00:00Z'        # TODO: set the actual AGI-26 publication date
 publishDate: '2026-06-16T00:00:00Z'
 publication_types: ['paper-conference']
