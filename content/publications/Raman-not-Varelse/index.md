@@ -49,7 +49,7 @@ hugoblox:
     doi: ''                          # TODO: add the Version-of-Record DOI once Springer issues it
 links:
   - type: pdf
-    url: 'The_Explosion_Afraid_of_Itself, Buteau, 2026.pdf'
+    url: 'Raman_not_Varelse, Buteau and Kommrusch, 2026.pdf'
 image:
   caption: ''
   focal_point: ''
