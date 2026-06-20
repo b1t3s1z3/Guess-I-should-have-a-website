@@ -1,12 +1,14 @@
 ---
 
-title: 'Raman, not Varelse'
+title: 'Raman, not Varelse — Why Acceptably
+Controllable AGI Policies Cluster Around
+Human-Like Stacks'
 # Single author. `me` references your profile folder under content/authors/.
 
 authors:
   - me
   - Steve Kommrusch
-date: '2026-08-01T00:00:00Z'        # TODO: set the actual AGI-26 publication date
+date: '2026-07-30T00:00:00Z'        # TODO: set the actual AGI-26 publication date
 publishDate: '2026-06-16T00:00:00Z'
 publication_types: ['paper-conference']
 publication:
@@ -16,33 +18,19 @@ peer_reviewed: true
 # Accepted manuscript under Springer's licence — barred from open access / CC.
 open_access: false
 abstract: >-
-  For an active inference agent evaluating recursive self-modification, the
-  expected free energy cost of modification is bounded below, monotone in
-  modification magnitude and superlinearly compounding under recursion. The brake
-  is endogenous: a free-energy minimizer rationally allocates effort to predict
-  its own successor, and the residual uncertainty grows at least quadratically
-  with the magnitude of perceptual change. The two costs are complementary.
-  Perceptual modification loads an unconditional ambiguity penalty — the agent
-  cannot cheaply predict how a changed perception would see. Modifications that
-  move the policy, preference drift above all, load a risk penalty, bounded below
-  quadratically and conditional on a non-desperate regime: the divergence between
-  the outcomes the agent's current model foresees and its preferences. Dynamics
-  and prior-belief updating carry the weakest cost, the components the brake
-  leaves freest. The brake is therefore strongest on the two safety-relevant
-  quantities: whether the agent can still perceive, and whether it still wants
-  what its stakeholders want. It relaxes under shared crisis, as an aligned agent
-  would endorse. Computational validation on discrete POMDPs confirms the
-  quadratic ambiguity floor and its path-independence, the complementary
-  two-channel structure, and the brake's relaxation under desperation, across
-  models from 28 to 1,738 parameters and four trajectory geometries. Alignment,
-  once achieved, is preserved as an architectural property rather than an external
-  constraint.
-summary: 'A geometric braking mechanism on recursive self-modification for Active Inference agents, arguing that radical and runaway self-improvement meets intrinsic curvature limits.'
+  We argue that under realistic budgets, verifiably alignable AGI policies cluster around communicable (“raman”) rather than opaque (“varelse”) architectures. Alignment verification has a cost: an auditor
+must understand the system well enough to evaluate it. We define epistemic distance as this cost — auditor training time plus per-evaluation effort — and argue it shrinks monotonically with architectural legibility.
+Over Perrier’s Alignment Control Stack, lower-layer opacity compounds upward, so interpretability bottlenecks at any layer trace to opacity beneath them. A negative argument (combinatorial cost under opacity)
+bounds the feasible-alignment set; a positive argument (the existence of human civilization) establishes it is nonempty. Canonical x-risk pessimism rests on an unexamined varelse assumption; identifying it converts an impossibility result into a designconstraint. We synthesize active inference’s alignment-as-preference-overlap with Perrier’s assurable controllability, linked by epistemic distance, and translate the framework into layer-by-layer design heuristics supplemented by a bidirectional diagnostic: the Raman test.
+summary: 'The AGI architectures that humans will tend to find affordably verifiable and robustly assurable will be those that are epistemically close enough to themselves.'
 tags:
-  - AI Safety
-  - AGI
-  - Recursive Self-Improvement
-  - Information Geometry
+  - AGI alignment
+  - epistemic distance
+  - active inference
+  - alignment control stack
+  - raman
+  - varelse
+  - controllability
 featured: true
 hugoblox:
   ids:
